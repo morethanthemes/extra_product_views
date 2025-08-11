@@ -1,0 +1,16 @@
+name: "Extra Product Views"
+type: "Views"
+description: Adds extra views for Product content type.
+recipes:
+  - extra_product
+install:
+  - image
+  - node
+  - taxonomy
+  - text
+  - user
+  - views
+  - views_infinite_scroll
+  - better_exposed_filters
+config:
+  strict: false

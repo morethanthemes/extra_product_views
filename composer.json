@@ -1,0 +1,12 @@
+{
+    "name": "morethanthemes/extra_product_views",
+    "description": "Adds extra views for Product content type.",
+    "type": "drupal-recipe",
+    "require": {
+        "drupal/better_exposed_filters": "^7.0",
+        "drupal/core": ">=10.4 || ^11",
+        "drupal/views_infinite_scroll": "^2.0",
+        "morethanthemes/extra_product": "^1.0"
+    },
+    "version": "1.0.0"
+}
